@@ -1,0 +1,23 @@
+{
+  "name": "@kvikk/deployment-render",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Example deployment to render.com",
+  "imports": {
+    "#components/*": "./components/*",
+    "#layouts/*": "./layouts/*"
+  },
+  "scripts": {
+    "build": "kvikk build",
+    "start": "kvikk start",
+    "dev": "kvikk dev"
+  },
+  "dependencies": {
+    "kvikk": "*",
+    "lit": "3.1.4"
+  },
+  "engines": {
+    "node": "22"
+  }
+}
